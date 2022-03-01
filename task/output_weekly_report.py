@@ -10,7 +10,7 @@ from voice import voice_call
 
 def output_weekly_report(model_name,strip,whether_voice):
     FLASHING_COUNT = 10      # led灯闪烁次数
-    FLASHING_INTERVAL = 0.2 # 闪烁间隔,100ms
+    FLASHING_INTERVAL = 0.2 # 闪烁间隔,200ms
     count = 0
     while 1:
         count = count + 1

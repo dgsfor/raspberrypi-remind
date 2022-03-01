@@ -2,15 +2,7 @@
 import os,time
 from aip import AipSpeech
 
-# 这里不去实现获取token的方法了，很简单，参考官方文档：https://cloud.baidu.com/doc/SPEECH/s/0k38y8mfh
-# token有效期为30天
-# baidu_aksk = {
-#     "appid": "25681779",
-#     "key": "BSwBhGGIrfTGAVFjlQeQ8U30",
-#     "secret": "DT8yGkGEUKL0EIkcGmbNvnNerqcB2bjE",
-#     "token": "24.77e073061a336974ff2827b60c9b2712.2592000.1648692311.282335-25681779"
-# }
-
+# 别人的，免费的
 baidu_aksk = {
     "appid": "15079673",
     "key": "mGxvq3Nwr3aVjD4UFIFGsaMD",
